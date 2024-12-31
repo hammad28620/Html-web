@@ -1,0 +1,78 @@
+<html>
+    <style>
+    form{
+        text-align: center;
+    }
+    header{
+    background-color: rgb(139, 226, 190);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+body {
+    text-align: center;
+background-color: rgb(240, 191, 171)
+}
+footer {
+    text-align: center;
+    color:black;
+}
+body button {
+    text-align: center;
+}
+.submit-button{
+    margin-bottom:auto;
+}
+
+
+    </style>
+    <header>
+        <h1> vaporwave.shop</h1>
+        <nav1>
+            <a style="color: rgb(225, 2, 255); padding-inline: 10px;" href="first.html"> Home</a>
+            <a style="color: rgb(225, 2, 255); padding-inline: 10px;" href="contact 1.html">Contact </a>
+            <a style="color: rgb(225, 2, 255); padding-inline: 10px;" href="about.html" >about us</a>
+            <a href="privacy policy.html" style="padding: 10px;color:rgb(225, 2, 255);" >Privacy Policy</a>
+            <a href="terms of services.html" style="color:rgb(225, 2, 255) ;" >Terms</a>
+        </nav1>
+    </header>
+    <body>
+    <form action="/submit" method="POST">
+        <label for="product">Product:</label><br>
+        <select name="product" required>
+            <option value="air39_earbuds">Air39 Bluetooth Gaming Earbuds</option>
+           
+        </select><br><br>
+    
+        <label >Quantity:</label><br>
+        <input><br><br>
+    
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" ><br><br>
+    
+        <label for="address" >Shipping Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" aria-required="true" ></textarea><br><br>
+    
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" ><br><br>
+    
+        <label for="payment">Payment Method:</label><br>
+        <select id="payment" name="payment" required>
+            <option>Credit Card</option> 
+            <option>Bank Transfer</option>
+        </select><br><br>
+    </form>
+    <button style="border-radius: 20px;" onclick="window.location.href='thankspage.html'">submit</button>
+</body>
+
+<footer>
+    
+    <nav2 style="text-align: center; color:aqua;">
+        <a href="privacy policy.html" style="padding: 10px;" >Privacy Policy</a>
+        <a href="terms of services.html" >Terms of Service</a>
+    </nav2>
+    <p>&copy; 2024 vapourwave <strong> All rights reserved.</p>
+</footer>
+
+
+</html>
